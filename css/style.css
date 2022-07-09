@@ -1,0 +1,143 @@
+body{
+  font-family: 'Nunito', sans-serif;
+  margin: auto;  
+}
+
+.header {
+  box-sizing: border-box;
+  padding: 0 0px 9% 0;
+}
+
+.header__bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 4%;
+}
+
+.header__bar_right {
+  text-align: right;
+  margin: auto 0;
+}
+
+.menu_bar {
+  padding: 0 15%;
+}
+
+.header__bar_item {
+  width: 12%;
+  display: inline-block;
+  margin: auto 2%;
+}
+
+.header__bar_item img {
+  width: 100%;
+}
+  
+  
+  .header__content {
+    display: flex;
+    margin: 11% auto auto auto;
+  }
+  
+  .header__title {
+    margin: auto 2% auto auto;
+    font-size: 39px;
+    width: 30%;
+  }
+  
+  .header__title {
+    font-size: 41px;
+    color: #359756;
+  }
+
+  .header__btn1 {
+    height: 54px;
+    width: 40%;
+    margin-right: 2%;
+    border: none;
+    border-radius: 10px;
+    background-color: #359756;
+    font-size: 18px;
+  }
+
+  .header__btn2 {
+    height: 54px;
+    width: 40%;
+    margin-left: 2%;
+    border: none;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+
+  .header__picture {
+    width: 36%;
+    margin: auto auto auto 2%;
+  }
+
+  .header__pict {
+    width: 100%;
+  }
+
+  .content_blocks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 3% 0;
+  }
+
+  .block_left {
+    width: 49%;
+    box-sizing: border-box;
+    padding: 10%;
+  }
+
+  .block_right {
+    width: 49%;
+    box-sizing: border-box;
+    display: flex;
+  }
+
+  .block_right_up, .block_right_down {
+    display: flex;
+  }
+
+  .block_r_leftside, .block_r_rightside {
+    width: 40%;
+    text-align: center;
+    margin: 1%;
+  }
+
+  .with_btn {
+    height: 450px;    
+    padding: 20%;
+    box-sizing: border-box;
+    margin: 4% auto;
+    background-color: #fff;
+  }
+
+  .without_btn {   
+    height: 380px;    
+    padding: 20%;
+    box-sizing: border-box;
+    margin: 4% auto;
+    background-color: #fff;
+  }
+
+  .block_left h2{
+    font-size: 48px;
+    margin: 10% auto;
+    color: #359756;
+  }
+
+  .block_left p{
+    font-size: 24px;
+    margin: 10% auto;
+  }
+
+
+ 
+
+
+  
