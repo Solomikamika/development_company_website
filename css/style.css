@@ -58,6 +58,11 @@ body{
     border-radius: 10px;
     background-color: #359756;
     font-size: 18px;
+    color: #fff;
+  }
+
+  .header__btn1:hover{
+    background-color: #000;
   }
 
   .header__btn2 {
@@ -134,6 +139,159 @@ body{
   .block_left p{
     font-size: 24px;
     margin: 10% auto;
+  }
+
+  .block_pict {
+    background-color: #d9f6e3;
+    box-sizing: border-box;
+    padding: 16%;
+    border-radius: 100%;
+  }
+
+  .block_r_btn {
+    border: none;
+    width: 77%;
+    height: 36px;
+    border-radius: 15px;
+    font-size: 18px;
+    margin: 8% auto;
+    background-color: #359756;
+    color: #fff;
+  }
+
+  .block_link {
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-style: none none solid;
+    border-bottom-color: #359756;
+    color: #000;
+    border-width: 2px;
+  }
+
+  .absolutes {
+    background-color: #f2f2f2;
+    position: relative;
+    height: 980px;
+  }
+
+  .green__back {
+    content: "";
+    position: absolute;
+    background-color: #359756;
+    width: 30%;
+    height: 980px;
+    margin: auto 30%;
+    z-index: 0;
+  }
+
+  .bck_pict {
+    position: absolute;
+    z-index: 1;
+    width: 55%;
+    left: 0;
+    right: 0;
+    margin: 6% auto;
+  }
+
+  .bck_pict img {
+    width: 100%;
+  }
+
+  .sircle {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    height: 204px;
+    width: 204px;
+    border-radius: 100%;
+    background-color: #8ae4a8;
+    left: 14%;
+    top: 8%;
+  }
+
+  .abs__info {
+    position: absolute;
+    z-index: 2;
+    background-color: #fff;
+    width: 35%;
+    height: 380px;
+    box-sizing: border-box;
+    padding: 3%;
+    bottom: 7%;
+    right: 12%;
+    border-radius: 20px;
+  }
+
+  .abs__info h3 {
+    font-size: 36px;
+    margin: 4% auto;
+    color: #359756;
+  }
+
+  .abs__info p {
+    margin: 8% auto;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .opinions {
+    text-align: center;
+    margin: 4% 9%;
+  }
+
+  .opinions h2 {
+    font-size: 60px;
+    color: #359756;
+  }
+
+  .opinions p {
+    font-size: 20px;
+    margin: auto 21%;
+    line-height: 36px;
+  }
+
+  .clients {
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+  }
+
+  .client {
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    padding: 3%;
+    margin: 5% 1%;
+    border-radius: 15px;
+  }
+
+  .client img {
+    border-radius: 100%;
+    border: 8px #fff solid;
+    box-sizing: border-box;
+    width: 133px;
+    height: 133px;
+  }
+
+  .bigger_img {
+    object-fit: cover;
+  }
+
+  .client p {
+    font-size: 17px;
+    line-height: 34px;
+    margin: 6% auto;
+  }
+
+  .client h5 {
+    font-size: 20px;
+    color: #359756;
+    margin: 16% auto 4% auto;
+  }
+
+  .client h6 {
+    font-size: 18px;
+    color: #808080;
+    margin: 0 auto 4% auto;
   }
 
 
