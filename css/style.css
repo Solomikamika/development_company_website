@@ -294,7 +294,92 @@ body{
     margin: 0 auto 4% auto;
   }
 
+@media only screen and (max-width: 870px) {
+  .header__content {
+    display:block;
+  }
 
+  .header__title {
+    font-size: 25px;    
+    margin: auto;
+    width: 86%;
+    text-align: center;
+  }
+
+  .header__btn1 {
+    vertical-align: top;
+  }
+
+  .header__picture {
+    width: 86%;
+    margin: 7% auto;
+  }
+
+  .content_blocks {
+    display: block;
+    text-align: center;
+  }
+
+  .block_left {
+    width: 90%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .block_right {
+    display: block;
+    width: 80%;
+    margin: 10% auto;
+  }
+
+  .block_r_leftside, .block_r_rightside {
+    width: 100%;
+  }
+
+  .absolutes {
+    height: 858px;
+  }
+
+  .green__back {
+    width: 65%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 858px;
+  }
+
+  .bck_pict {
+    width: 81%;
+    top: 7%;
+  }
+
+  .sircle {
+    width: 120px;
+    height: 120px;
+    left: 2%;
+    top: 7%;
+  }
+
+  .abs__info {
+    width: 81%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 41%;
+  }
+
+  .opinions h2 {
+    font-size: 50px;   
+  }
+
+  .opinions p {    
+    margin: auto;   
+  }
+
+  .clients {
+    display: block;
+  }
+}
  
 
 
