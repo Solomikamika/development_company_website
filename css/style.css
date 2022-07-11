@@ -294,6 +294,104 @@ body{
     margin: 0 auto 4% auto;
   }
 
+  footer {
+    position: relative;
+    height: 560px;
+    background-color: #e5e5e5;
+  }
+
+  .horizontal {
+    content: "";
+    position: absolute;
+    height: 230px;
+    background-color: #359756;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+  }
+
+  .contacts {
+    background-color: #fff;
+    width: 60%;
+    height: 450px;
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    display: flex;
+  }
+
+  .contact_info {
+    width: 40%;
+    box-sizing: border-box;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact_info h3 {
+    font-size: 30px;
+  }
+
+  .contact_info a {
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #359756;
+    margin: 4% 0;
+  }
+
+  .social_media {
+    margin: 10% 0;
+  }
+
+  .social_media i {
+    font-size: 30px;
+    letter-spacing: 20px;
+  }
+
+  .client_info {
+    width: 60%;
+    box-sizing: border-box;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name {
+    height: 45px;
+    margin: 4% 0;
+  }
+
+  .email {
+    height: 45px;
+    margin: 2% 0;
+  }
+
+  .message {
+    height: 120px;
+    margin: 2% 0;
+  }
+
+  .btn_submit {
+    height: 45px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #359756;
+    border: none;
+  }
+
+
+
+
+
 @media only screen and (max-width: 870px) {
   .header__content {
     display:block;
@@ -378,6 +476,32 @@ body{
 
   .clients {
     display: block;
+  }
+
+  footer {
+    height: 780px;
+  }
+
+  .horizontal {
+    top: 0%;
+    bottom: 42%;
+  }
+
+  .contacts {
+    display: block;
+    text-align: center;
+    width: 80%;
+    top: 0;
+    bottom: 2%;
+    height: 686px;
+  }
+
+  .contact_info {
+    width: 100%;
+  }
+
+  .client_info {
+    width: 100%;
   }
 }
  
